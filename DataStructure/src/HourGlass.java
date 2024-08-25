@@ -11,8 +11,8 @@ public class HourGlass {
         for (int i = 0; i < 6; i++) {
             List<Integer> row = new ArrayList<>();
             for (int j = 0; j < 6; j++) {
-                row.add((int) (Math.random() * 10)); // Random values from 0-9 for simplicity
-//                row.add((int) (Math.random() * 19) - 9); // Random values from -9 to 9 for simplicity
+//                row.add((int) (Math.random() * 10)); // Random values from 0-9 for simplicity
+                row.add((int) (Math.random() * 19) - 9); // Random values from -9 to 9 for simplicity
 
             }
             arr.add(row);
